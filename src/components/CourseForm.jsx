@@ -97,8 +97,8 @@ function CourseForm({ onSubmit, editingCourse, onCancel }) {
           <span className="mb-1 block text-sm font-semibold text-slate-700 dark:text-slate-300">Credit Hours</span>
           <input
             type="number"
-            min="0.5"
-            step="0.5"
+            min="0.25"
+            step="0.25"
             value={credits}
             onChange={(event) => setCredits(event.target.value)}
             placeholder="3"
